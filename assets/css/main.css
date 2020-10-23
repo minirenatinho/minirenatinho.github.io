@@ -3206,3 +3206,10 @@ article header {
 	max-width: none;
 	font-size: 100px;
 }
+
+.project {
+	float: left;
+	max-width: 600px;
+	border-radius: 5%;
+	margin-right: 50px;
+}
