@@ -3213,3 +3213,13 @@ article header {
 	border-radius: 5%;
 	margin-right: 50px;
 }
+
+	@media screen and (max-width: 980px) {
+
+		.project {
+			float: none;
+			max-width: 300px;
+			border-radius: 5%;
+		}
+
+	}
