@@ -2717,6 +2717,7 @@
 		top: 2em;
 		width: 100%;
 		z-index: 10001;
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 
 		#header .inner {
@@ -3223,3 +3224,25 @@ article header {
 		}
 
 	}
+
+.contact {
+	display: inline-flex;
+}
+
+.contact h3{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+@media screen and (max-width: 980px) {
+
+	.contact {
+		display: list-item;
+	}
+	
+	.contact h3{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+}
