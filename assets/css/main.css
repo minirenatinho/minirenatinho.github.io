@@ -2757,7 +2757,7 @@
 		}
 
 			#header a:hover {
-				color: #000;
+				color: #FFF;
 			}
 
 			#header a:last-child {
@@ -3234,15 +3234,19 @@ article header {
 	margin-right: 50px;
 }
 
-@media screen and (max-width: 980px) {
+	@media screen and (max-width: 980px) {
 
-	.contact {
-		display: list-item;
-	}
-	
-	.contact h3{
-		margin-left: 0px;
-		margin-right: 0px;
+		.contact {
+			display: list-item;
+		}
+		
+		.contact h3{
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
 	}
 
-}
+	#header {
+		top: 0;
+	}
