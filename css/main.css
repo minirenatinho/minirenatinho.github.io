@@ -17,7 +17,7 @@ h1 a {
 	margin: 10px;
 	font-size: 50px;
 	color: white;
-	background-color: rgb(255, 102, 0);
+	background-color: rgb(255, 0, 0);
 }
 
 h1 a:hover {
@@ -52,4 +52,10 @@ img {
 
 .youtube-button {
 	margin-top: 200px;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		display: grid;
+	}
 }
