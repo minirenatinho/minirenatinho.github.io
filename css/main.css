@@ -10,8 +10,15 @@ a {
 	color: rgb(255, 102, 0);
 	text-decoration: none;
 	font-size: 22px;
+	border-radius: 5%;
 }
 
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+/* youtube button */
 h1 a {
 	padding: 10px;
 	margin: 10px;
@@ -20,11 +27,15 @@ h1 a {
 	background-color: rgb(255, 0, 0);
 }
 
+/* youtube button hover */
 h1 a:hover {
 	background-color: orange;
+	color: white;
+	text-decoration: none;
 }
 
-header a {
+/* menu and contact button */
+header a, h2 a {
 	padding: 10px;
 	margin: 10px;
 	font-size: 30px;
@@ -32,30 +43,77 @@ header a {
 	background-color: rgb(255, 102, 0);
 }
 
-header a:hover {
+/* menu and contact button hover */
+header a:hover, h2 a:hover {
 	color: white;
 	background-color: orange;
+	text-decoration: none;
 }
+
 
 section {
 	margin-top: 50px;
 }
 
-img {
-	max-width: 600px;
-	max-height: 600px;
+.carousel-item img {
+	width: 650px;
+	height: 300px;
 }
 
 .image-round img {
 	border-radius: 25%;
+	margin-bottom: 50px;
 }
 
 .youtube-button {
 	margin-top: 200px;
 }
 
-@media screen and (max-width: 600px) {
+.contact-buttons h2 {
+	margin-top: 25px;
+}
+
+.carousel-caption {
+	color: black;
+}
+
+.carousel-item {
+	min-height: 500px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	background-color: black;
+	border-radius: 0%;
+}
+
+#carouselIndicators {
+	background-color: rgba(0, 0, 0, 0.144);
+}
+
+#software-mobile-version {
+	display: none;
+}
+
+@media screen and (max-width: 770px) {
 	header {
 		display: grid;
+	}
+
+	#software-mobile-version {
+		display: block;
+	}
+
+	#carouselIndicators {
+		display: none;
+	}
+
+	#software-mobile-version img {
+		width: 400px;
+		height: 200px;
+		margin-bottom: 50px;
+	}
+
+	#software-mobile-version div {
+		margin-bottom: 50px;
 	}
 }
