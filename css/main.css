@@ -86,6 +86,10 @@ section {
 	border-radius: 0%;
 }
 
+.sobre {
+	padding: 20px;
+}
+
 #carouselIndicators {
 	background-color: rgba(0, 0, 0, 0.144);
 }
