@@ -2,57 +2,32 @@
 	text-align: center;
 }
 
-header {
-	margin-top: 15px;
-}
-
 a {
-	color: rgb(255, 102, 0);
+	color: black;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 22px;
 	border-radius: 5%;
 }
 
 a:hover {
 	text-decoration: none;
-	color: red;
+	color: rgb(109, 109, 109);
 }
 
-/* youtube button */
-h1 a {
-	padding: 10px;
-	margin: 10px;
-	font-size: 50px;
-	color: white;
-	background-color: rgb(255, 0, 0);
+.carousel-session {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: -30px;
 }
 
-/* youtube button hover */
-h1 a:hover {
-	background-color: orange;
-	color: white;
-	text-decoration: none;
+.about-session {
+	display: flex;
 }
 
-/* menu and contact button */
-header a, h2 a {
-	padding: 10px;
-	margin: 10px;
-	font-size: 30px;
-	color: white;
-	background-color: rgb(255, 102, 0);
-}
-
-/* menu and contact button hover */
-header a:hover, h2 a:hover {
-	color: white;
-	background-color: orange;
-	text-decoration: none;
-}
-
-
-section {
-	margin-top: 50px;
+.about-item p {
+	margin: 5px;
+	margin-top: 10px;
 }
 
 .carousel-item img {
@@ -60,47 +35,53 @@ section {
 	height: 300px;
 }
 
-.image-round img {
-	border-radius: 25%;
-	margin-bottom: 50px;
-}
-
-.youtube-button {
-	margin-top: 200px;
-}
-
-.contact-buttons h2 {
-	margin-top: 25px;
-}
-
 .carousel-caption {
 	color: black;
 }
 
 .carousel-item {
-	min-height: 500px;
+	min-height: 480px;
 }
 
 .carousel-control-prev, .carousel-control-next {
-	background-color: black;
-	border-radius: 0%;
-}
-
-.sobre {
-	padding: 20px;
+	background-color: rgb(202, 202, 202);
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: 200px;
 }
 
 #carouselIndicators {
-	background-color: rgba(0, 0, 0, 0.144);
+	background-color: white;
 }
 
 #software-mobile-version {
 	display: none;
 }
 
+#about-text {
+	flex: 75%;
+	margin-top: 30px;
+}
+
+#about-img {
+	flex: 25%;
+	margin-right: 100px;
+}
+
+#about-img img {
+	border-radius: 25%;
+}
+
 @media screen and (max-width: 770px) {
-	header {
-		display: grid;
+
+	.about-session {
+		display: block;
+		margin-top: 50px;
+	}
+
+	.carousel-session {
+		margin-bottom: 0px;
 	}
 
 	#software-mobile-version {
@@ -119,5 +100,13 @@ section {
 
 	#software-mobile-version div {
 		margin-bottom: 50px;
+	}
+
+	#about-text {
+		margin-left: 0px;
+	}
+
+	#about-img {
+		margin-right: 0px;
 	}
 }
