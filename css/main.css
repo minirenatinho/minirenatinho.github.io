@@ -16,8 +16,9 @@ a:hover {
 }
 
 .carousel-session {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
 	margin-bottom: -30px;
 }
 
@@ -31,6 +32,9 @@ a:hover {
 }
 
 .carousel-item img {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
 	width: 650px;
 	height: 300px;
 }
@@ -55,7 +59,7 @@ a:hover {
 	background-color: white;
 }
 
-#software-mobile-version {
+#mobile-version {
 	display: none;
 }
 
@@ -81,10 +85,11 @@ a:hover {
 	}
 
 	.carousel-session {
+		margin-top: 30px;
 		margin-bottom: 0px;
 	}
 
-	#software-mobile-version {
+	#mobile-version {
 		display: block;
 	}
 
@@ -92,18 +97,29 @@ a:hover {
 		display: none;
 	}
 
-	#software-mobile-version img {
-		width: 400px;
+	#mobile-version img {
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		width: 300px;
 		height: 200px;
 		margin-bottom: 50px;
 	}
 
-	#software-mobile-version div {
-		margin-bottom: 50px;
+	#mobile-version div {
+		margin-bottom: 100px;
 	}
 
 	#about-text {
 		margin-left: 0px;
+	}
+
+	#about-text h1 {
+		margin-bottom: 10px;
+	}
+
+	#about-text p {
+		margin-bottom: 30px;
 	}
 
 	#about-img {
