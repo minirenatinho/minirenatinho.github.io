@@ -88,6 +88,10 @@ a:hover {
 
 @media screen and (max-width: 770px) {
 
+	* {
+		font-family: unset;
+	}
+
 	.about-session {
 		display: block;
 		margin-top: 50px;
