@@ -4,6 +4,15 @@
 	font-size: large;
 }
 
+h1 {
+	font-size: 30px;
+}
+
+h5 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 a {
 	color: black;
 	text-decoration: none;
@@ -17,13 +26,6 @@ a:hover {
 	color: rgb(109, 109, 109);
 }
 
-.carousel-session {
-	margin-top: 10px;
-	margin-left: 30px;
-	margin-right: 30px;
-	margin-bottom: -30px;
-}
-
 .about-session {
 	display: flex;
 }
@@ -33,61 +35,31 @@ a:hover {
 	margin-top: 10px;
 }
 
-.carousel-item img {
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	width: 650px;
+.feed-session .ti img {
+	border: 2px solid black;
+	max-width: 650px;
+	max-height: 300px;
+}
+
+.feed-session .musicas img {
+	border: 2px solid black;
+	width: 300px;
 	height: 300px;
 }
 
-.carousel-caption {
-	color: black;
-}
-
-.carousel-item {
-	min-height: 480px;
-}
-
-.carousel-control-prev, .carousel-control-next {
-	background-color: rgb(202, 202, 202);
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
-	margin-top: 200px;
-}
-
-.carousel .carousel-indicators li {
-	background-color: gray;
-}
-.carousel .carousel-indicators li.active {
-	background-color: black;
-}
-
-#carouselIndicators {
-	background-color: white;
-}
-
-#mobile-version {
-	display: none;
-}
-
 #about-text {
-	flex: 75%;
-	margin-top: 30px;
+	flex: 60%;
 }
 
 #about-img {
-	flex: 25%;
-	margin-right: 100px;
+	flex: 40%;
 }
 
 #about-img img {
-	border-radius: 25%;
+	border-radius: 100%;
 }
 
 @media screen and (max-width: 770px) {
-
 	* {
 		font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
@@ -97,32 +69,6 @@ a:hover {
 		margin-top: 50px;
 		margin-left: 10px;
 		margin-right: 10px;
-	}
-
-	.carousel-session {
-		margin-top: 30px;
-		margin-bottom: 0px;
-	}
-
-	#mobile-version {
-		display: block;
-	}
-
-	#carouselIndicators {
-		display: none;
-	}
-
-	#mobile-version img {
-		border-style: solid;
-		border-color: black;
-		border-width: 2px;
-		width: 300px;
-		height: 200px;
-		margin-bottom: 50px;
-	}
-
-	#mobile-version div {
-		margin-bottom: 100px;
 	}
 
 	#about-text {
@@ -135,9 +81,5 @@ a:hover {
 
 	#about-text p {
 		margin-bottom: 30px;
-	}
-
-	#about-img {
-		margin-right: 0px;
 	}
 }
