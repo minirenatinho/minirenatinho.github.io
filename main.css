@@ -116,6 +116,10 @@ a:hover {
 	* {
 		font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
+
+	h1 {
+		margin-left: 10px;
+	}
 	
 	.title-session {
 		position: relative;
