@@ -6,7 +6,12 @@
 
 h1 {
 	font-size: 30px;
-	margin-top: 0px;
+	flex: 50%;
+}
+
+#feedFilter {
+	flex: 50%;
+	margin-top: 20px;
 }
 
 h5 {
@@ -25,6 +30,10 @@ a {
 a:hover {
 	text-decoration: none;
 	color: rgb(109, 109, 109);
+}
+
+.title-session {
+	display: flex;
 }
 
 .title-session, .foot-session {
