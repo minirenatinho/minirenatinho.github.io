@@ -47,6 +47,11 @@ a:hover {
 	height: 300px;
 }
 
+.feed-session .about img {
+	border: 2px solid black;
+	max-height: 250px;
+}
+
 /* css adapted from https://www.w3schools.com/howto/howto_js_filter_elements.asp*/
 
 .filter {
