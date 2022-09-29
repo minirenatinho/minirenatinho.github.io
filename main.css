@@ -6,6 +6,7 @@
 
 h1 {
 	font-size: 30px;
+	margin-top: 0px;
 }
 
 h5 {
@@ -26,37 +27,56 @@ a:hover {
 	color: rgb(109, 109, 109);
 }
 
-.about-session {
-	display: flex;
+.title-session, .foot-session {
+	background-color: rgb(184, 184, 184);
 }
 
-.about-item p {
-	margin: 5px;
-	margin-top: 10px;
+.feed-session {
+	margin-top: 30px;
 }
 
-.feed-session .ti img {
+.feed-session .ti img, .feed-session .games img {
 	border: 2px solid black;
 	max-width: 650px;
 	max-height: 300px;
 }
 
-.feed-session .musicas img {
+.feed-session .musics img {
 	border: 2px solid black;
 	width: 300px;
 	height: 300px;
 }
 
-#about-text {
-	flex: 60%;
-}
+/* css adapted from https://www.w3schools.com/howto/howto_js_filter_elements.asp*/
 
-#about-img {
-	flex: 40%;
+.filter {
+	display: none;
 }
-
-#about-img img {
-	border-radius: 100%;
+  
+.show {
+	display: block;
+}
+  
+.feed-session {
+	overflow: hidden;
+}
+  
+/* Style the buttons */
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+  
+.btn:hover {
+	background-color: #ddd;
+}
+  
+.btn.active {
+	background-color: #666;
+	color: white;
 }
 
 @media screen and (max-width: 770px) {
@@ -64,22 +84,15 @@ a:hover {
 		font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
-	.about-session {
+	.title-session {
 		display: block;
 		margin-top: 50px;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
-	#about-text {
+	.title-session h1 {
 		margin-left: 0px;
-	}
-
-	#about-text h1 {
 		margin-bottom: 10px;
-	}
-
-	#about-text p {
-		margin-bottom: 30px;
 	}
 }

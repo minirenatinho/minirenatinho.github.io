@@ -5,7 +5,7 @@
 		<link rel="icon" href="images/pumpkin.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="main.css" />
 	</head>
 	<body>
 
@@ -15,45 +15,78 @@
 			!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		-->
 
-		<section class="about-session">
-			<div id="about-text">
-				<h1>Mini Renatinho</h1>
-				<p>Acesse meu <a target="_blank" href="pdf/Currículo.pdf">Currículo</a>, minha página do <a target="_blank" href="https://www.linkedin.com/in/renato-deyvson-177680163/" >LinkedIn</a>, meu perfil no <a target="_blank" href="https://github.com/minirenatinho">Github</a> e meu <a target="_blank" href="https://soundcloud.com/minirenatinho">SoundCloud</a></p>
-				<br/><hr><br/>
+		<section class="title-session">
+			<h1>Mini Renatinho</h1>
+
+			<div id="feedFilter">
+				<button class="btn active" onclick="filterSelection('all')"> Tudo</button>
+				<button class="btn" onclick="filterSelection('games')"> Jogos</button>
+				<button class="btn" onclick="filterSelection('musics')"> Músicas</button>
+				<button class="btn" onclick="filterSelection('web')"> Web Dev</button>
+				<button class="btn" onclick="filterSelection('about')"> Sobre</button>
+				<br/><br/>
 			</div>
 		</section>
 
 		<section class="feed-session">
-			(mar 2022)<h5><a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho">É Só Um Cigarrinho (part. Victor)</a></h5>
-			<a class="musicas" target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho"><img src="images/e_so_um_cigarrinho.jpeg" alt="É Só Um Cigarrinho (part. Victor)" /></a>
-			<p>Uma versão brasileira da música The Cigarette Duet da Princess Chelsea</p>
-			<br/><hr><br/>
+			<div class="filter web">
+				(2022)<h5><a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">minirenatinho.github.io</a></h5>
+				<a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">
+					<picture>
+						<source srcset="images/site_mini.png" media="(max-width: 770px)">
+						  <source srcset="images/site.png">
+						<img src="images/site.png" alt="site" />
+					</picture>
+				</a>
+				<p>O código deste site está disponível no <a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">GitHub</a>!</p>
+				<br/><hr><br/>
+			</div>
 
-			(nov 2017)<h5><a target="_blank" href="https://jawzinho.herokuapp.com/">Arena Jerimum</a></h5>
-			<a class="ti" target="_blank" href="https://jawzinho.herokuapp.com/">
-				<picture>
-					<source srcset="images/jaw_mini.png" media="(max-width: 770px)">
-  					<source srcset="images/jaw.png">
-					<img src="images/jaw.png" alt="jaw" /></a>
-				</picture>
-				
-			<p>Jogo multijogador online para navegadores. O código está disponível no <a target="_blank" href="https://github.com/minirenatinho/jaw">GitHub</a>. Aplicação online em: <a target="_blank" href="https://jawzinho.herokuapp.com/">jawzinho.herokuapp.com</a></p>
-			<br/><hr><br/>
+			<div class="filter musics">
+				(2022)<h5><a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho">É Só Um Cigarrinho (part. Victor)</a></h5>
+				<a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho"><img src="images/e_so_um_cigarrinho.jpeg" alt="É Só Um Cigarrinho (part. Victor)" /></a>
+				<p>Uma versão brasileira da música The Cigarette Duet da Princess Chelsea</p>
+				<br/><hr><br/>
+			</div>
 
-			(mai 2017)<h5><a target="_blank" href="https://github.com/renatodms">Projetos do Curso de Ciência da Computação</a></h5>
-			<a class="ti" target="_blank" href="https://github.com/renatodms">
-				<picture>
-					<source srcset="images/git_mini.png" media="(max-width: 770px)">
-  					<source srcset="images/git.png">
-					<img src="images/git.png" alt="git" /></a>
-				</picture>
-			<p>Repositório com códigos de projetos de software que desenvolvi durante o curso de graduação em Ciência da Computação, no <a target="_blank" href="https://github.com/renatodms">GitHub</a>.</p>
-			<br/><hr><br/>
+			<div class="filter games web">
+				(2017)<h5><a target="_blank" href="https://jawzinho.herokuapp.com/">Arena Jerimum</a></h5>
+				<a target="_blank" href="https://jawzinho.herokuapp.com/">
+					<picture>
+						<source srcset="images/jaw_mini.png" media="(max-width: 770px)">
+						  <source srcset="images/jaw.png">
+						<img src="images/jaw.png" alt="jaw" />
+					</picture>
+				</a>
+				<p>Jogo multijogador online para navegadores. O código está disponível no <a target="_blank" href="https://github.com/minirenatinho/jaw">GitHub</a>. Aplicação online em: <a target="_blank" href="https://jawzinho.herokuapp.com/">jawzinho.herokuapp.com</a></p>
+				<br/><hr><br/>
+			</div>
+			
+			<div class="filter web">
+				(2016)<h5><a target="_blank" href="https://github.com/renatodms?tab=repositories">Projetos do Curso de Ciência da Computação</a></h5>
+				<a target="_blank" href="https://github.com/renatodms?tab=repositories">
+					<picture>
+						<source srcset="images/git_mini.png" media="(max-width: 770px)">
+						  <source srcset="images/git.png">
+						<img src="images/git.png" alt="git" />
+					</picture>
+				</a>
+				<p>Repositório com códigos de projetos de software que desenvolvi durante o curso de graduação em Ciência da Computação, no <a target="_blank" href="https://github.com/renatodms?tab=repositories">GitHub</a>.</p>
+				<br/><hr><br/>
+			</div>
+
+			<div class="filter about">
+				<img src="images/minirenatinho.jpg" alt="Eu" />
+				<br/><br/>
+			</div>
 		</section>
 
 		<section class="foot-session">
-			<p>Email (pix): <a target="_blank" href="mailto:renatodeyvson@gmail.com">renatodeyvson@gmail.com</a></p>
+			<p>Acesse meu <a target="_blank" href="pdf/Currículo.pdf">Currículo</a>, minha página do <a target="_blank" href="https://www.linkedin.com/in/renato-deyvson-177680163/" >LinkedIn</a>, meu perfil no <a target="_blank" href="https://github.com/minirenatinho">Github</a> e meu <a target="_blank" href="https://soundcloud.com/minirenatinho">SoundCloud</a></p>
+			<p>Entre em contato pelo email: <a target="_blank" href="mailto:renatodeyvson@gmail.com">renatodeyvson@gmail.com</a>, ou pelo Instagram: <a target="_blank" href="https://www.instagram.com/minirenatinho/">@minirenatinho</a></p>
 		</section>
+
+		<script src="main.js"></script>
 
 	</body>
 </html>
