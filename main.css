@@ -82,6 +82,10 @@ a:hover {
 	color: rgb(245, 245, 245);
 }
 
+#line {
+	text-decoration: line-through;
+}
+
 /* css adapted from https://www.w3schools.com/howto/howto_js_filter_elements.asp*/
 
 .filter {
@@ -133,5 +137,9 @@ a:hover {
 
 	.feed-session {
 		margin-top: 30px;
+	}
+
+	echo {
+		display: none;
 	}
 }
