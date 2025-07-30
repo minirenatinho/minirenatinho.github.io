@@ -7,7 +7,7 @@
 
 h1 {
 	font-size: 30px;
-	color: #f75f31d0;
+	color: #ffffffd0;
 }
 
 h1, #feedFilter {
@@ -22,7 +22,7 @@ h5 {
 }
 
 a {
-	color: black;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 22px;
@@ -31,7 +31,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #F76031;
+	color: #0011ff;
 }
 
 .title-session {
@@ -42,17 +42,22 @@ a:hover {
 }
 
 .title-session, .foot-session {
-	background-color: rgba(236, 219, 200, 0.87);
+	background-color: rgb(114, 114, 114);
 }
 
 .foot-session {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px 0;
+	width: 100%;
+	z-index: 1000;
 }
 
 .foot-session p {
 	margin: 15px;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 .feed-session {
@@ -78,10 +83,6 @@ a:hover {
 	max-height: 250px;
 }
 
-.about echo {
-	color: rgb(245, 245, 245);
-}
-
 #line {
 	text-decoration: line-through;
 }
@@ -102,6 +103,7 @@ a:hover {
   
 .feed-session {
 	overflow: hidden;
+	padding-bottom: 200px;
 }
   
 /* Style the buttons */
@@ -118,7 +120,7 @@ a:hover {
 }
   
 .btn.active {
-	background-color: #f75f31d0;
+	background-color: rgba(0, 0, 0, 0.816);
 	color: white;
 }
 
