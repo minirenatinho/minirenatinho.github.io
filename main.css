@@ -3,8 +3,10 @@
 	font-family: cursive, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: large;
 	margin: 0px;
+	background-color: rgb(0, 0, 0);
 }
 
+/* tittle */
 h1 {
 	font-size: 30px;
 	color: #ffffffd0;
@@ -22,7 +24,7 @@ h5 {
 }
 
 a {
-	color: rgb(0, 0, 0);
+	color: rgb(63, 163, 177);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 22px;
@@ -31,7 +33,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #0011ff;
+	color: #2831af;
 }
 
 .title-session {
@@ -42,7 +44,7 @@ a:hover {
 }
 
 .title-session, .foot-session {
-	background-color: rgb(114, 114, 114);
+	background-color: rgb(0, 0, 0);
 }
 
 .foot-session {
@@ -64,22 +66,23 @@ a:hover {
 	margin: 0 auto;
 	margin-top: 110px;
 	max-width: max-content;
+	color: rgb(255, 255, 255);
 }
 
 .feed-session .ti img, .feed-session .games img {
-	border: 2px solid black;
+	border: 2px solid rgb(114, 114, 114);
 	max-width: 650px;
 	max-height: 300px;
 }
 
 .feed-session .musics img {
-	border: 2px solid black;
+	border: 2px solid rgb(114, 114, 114);
 	width: 300px;
 	height: 300px;
 }
 
 .feed-session .about img {
-	border: 2px solid black;
+	border: 2px solid rgb(114, 114, 114);
 	max-height: 250px;
 }
 
@@ -116,11 +119,11 @@ a:hover {
 }
   
 .btn:hover {
-	background-color: #ddd;
+	background-color: rgb(63, 163, 177);
 }
   
 .btn.active {
-	background-color: rgba(0, 0, 0, 0.816);
+	background-color: rgba(63, 163, 177, 0.816);
 	color: white;
 }
 
