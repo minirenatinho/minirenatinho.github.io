@@ -1,101 +1,140 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Mini Renatinho</title>
-		<link rel="icon" href="images/pumpkin.png">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="main.css" />
-	</head>
-	<body>
+﻿<!DOCTYPE HTML>
+<html lang="pt-BR">
 
-		<!--
-		!!!!!!!!!!!!!!!!!!!!!!!
-		!! FALTA DEPOIMENTOS !!
-		!!!!!!!!!!!!!!!!!!!!!!!
-		-->
+<head>
+	<title>Mini Renatinho</title>
+	<link rel="icon" href="images/pumpkin.png">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Mini Renatinho: Áudio, Tecnologia e Interação." />
+	<link rel="stylesheet" href="main.css" />
+</head>
 
-		<section class="title-session">
-			<h1>Mini Renatinho</h1>
+<body>
+	<header class="site-header">
+		<div class="hero-panel">
+			<div class="hero-copy">
+				<p class="eyebrow">EPK / Portifólio</p>
+				<h1>Mini Ren<span class="highlight-text">ati</span>nho</h1>
+				<p class="hero-text">Áudio, Tecnologia e Interação</p>
+			</div>
+		</div>
+		<div class="fixed-nav">
+			<div class="hero-actions">
+				<a class="cta" href="#music">Músicas</a>
+				<a class="cta" href="#games">Jogos</a>
+				<a class="cta" href="#dev">Dev</a>
+				<a class="cta" href="#contato">Contato</a>
+			</div>
+		</div>
+	</header>
 
-			<div id="feedFilter">
-				<button class="btn active" onclick="filterSelection('all')"> Tudo</button>
-				<button class="btn" onclick="filterSelection('games')"> Jogos</button>
-				<button class="btn" onclick="filterSelection('musics')"> Músicas</button>
-				<button class="btn" onclick="filterSelection('dev')"> Dev</button>
-				<button class="btn" onclick="filterSelection('about')"> Sobre</button>
-				<br/><br/>
+	<main class="main-content">
+		<section class="intro-section">
+			<div class="intro-panel">
+				<h2>EPK/Portifólio de músicas, jogos e projetos de solftware</h2>
+				<ul class="highlight-list">
+					<li>Músicas autorais e colaborações</li>
+					<li>Jogos independentes</li>
+					<li>Programação web, mobile e desktop</li>
+				</ul>
 			</div>
 		</section>
 
-		<section class="feed-session">
-
-			<div class="filter musics ncy">
-				(2025)<h5><a target="_blank" href="https://soundcloud.com/minirenatinho/nem-se">Nem se (Demo)</a></h5>
-				<a target="_blank" href="https://soundcloud.com/minirenatinho/nem-se"><img src="images/edvanancilda.jpg" alt="Nem se (Demo)" /></a>
-				<p>Uma declaração para uma pessoa muito especial</p>
-				<br/><hr><br/><br/>
+		<section class="portfolio-section" id="music">
+			<div class="section-header">
+				<span class="section-label">Músicas</span>
+				<h3>Trabalhos recentes</h3>
 			</div>
+			<div class="portfolio-grid">
+				<div class="portfolio-card musics">
+					<div class="card-meta">2025 • Indie rock</div>
+					<h4><a target="_blank" href="https://soundcloud.com/minirenatinho/nem-se">Nem se (Demo)</a></h4>
+					<a target="_blank" href="https://soundcloud.com/minirenatinho/nem-se"><img
+							src="images/edvanancilda.jpg" alt="Nem se (Demo)" /></a>
+					<div class="audio-player">
+						<iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/minirenatinho/nem-se&color=%233fa3b1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					</div>
+					<p>Música dedicada para uma pessoa muito especial. Arranjada com uma base acústica de ukulele,
+						baterias eletrônicas e uma vós (despreparada) intimista.</p>
+				</div>
 
-			<div class="filter dev">
-				(2022)<h5><a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">minirenatinho.github.io</a></h5>
-				<a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">
-					<picture>
-						<source srcset="images/site_mini.png" media="(max-width: 715px)">
-						  <source srcset="images/site.png">
-						<img src="images/site.png" alt="site" />
-					</picture>
-				</a>
-				<p>O código deste site está disponível no <a target="_blank" href="https://github.com/minirenatinho/minirenatinho.github.io">GitHub</a></p>
-				<br/><hr><br/><br/>
-			</div>
+				<div class="portfolio-card musics">
+					<div class="card-meta">2022 • Indie rock</div>
+					<h4><a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho">É Só Um
+							Cigarrinho (part. Victor)</a></h4>
+					<a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho"><img
+							src="images/e_so_um_cigarrinho.jpeg" alt="É Só Um Cigarrinho (part. Victor)" /></a>
+					<div class="audio-player">
+						<iframe width="100%" height="140" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/minirenatinho/e-so-um-cigarrinho&color=%233fa3b1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					</div>
+					<p>Uma versão brasileira (não oficial, não lançada) da música The Cigarette Duet da Princess
+						Chelsea.</p>
+				</div>
+		</section>
 
-			<div class="filter musics">
-				(2022)<h5><a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho">É Só Um Cigarrinho (part. Victor)</a></h5>
-				<a target="_blank" href="https://soundcloud.com/minirenatinho/e-so-um-cigarrinho"><img src="images/e_so_um_cigarrinho.jpeg" alt="É Só Um Cigarrinho (part. Victor)" /></a>
-				<p>Uma versão brasileira da música The Cigarette Duet da Princess Chelsea</p>
-				<br/><hr><br/><br/>
+		<section class="portfolio-section" id="games">
+			<div class="section-header">
+				<span class="section-label">Jogos</span>
 			</div>
-
-			<div class="filter games dev">
-				(2017)<h5><a target="_blank" href="https://arena-jerimum.onrender.com/">Arena Jerimum</a></h5>
-				<a target="_blank" href="https://arena-jerimum.onrender.com/">
-					<picture>
-						<source srcset="images/jaw_mini.png" media="(max-width: 715px)">
-						  <source srcset="images/jaw.png">
-						<img src="images/jaw.png" alt="jaw" />
-					</picture>
-				</a>
-				<p>Jogo multijogador online para navegadores. O código está disponível no <a target="_blank" href="https://github.com/minirenatinho/jaw">GitHub</a>. Aplicação online em: <a target="_blank" href="https://arena-jerimum.onrender.com/">jawzinho.herokuapp.com</a></p>
-				<br/><hr><br/><br/>
-			</div>
-			
-			<div class="filter dev">
-				(2016)<h5><a target="_blank" href="https://github.com/renatodms?tab=repositories">Projetos do Curso de Ciência da Computação</a></h5>
-				<a target="_blank" href="https://github.com/renatodms?tab=repositories">
-					<picture>
-						<source srcset="images/git_mini.png" media="(max-width: 715px)">
-						  <source srcset="images/git.png">
-						<img src="images/git.png" alt="git" />
-					</picture>
-				</a>
-				<p>Repositório com códigos de projetos de software que desenvolvi durante o curso de graduação em Ciência da Computação, no <a target="_blank" href="https://github.com/renatodms?tab=repositories">GitHub</a></p>
-				<br/><hr><br/><br/>
-			</div>
-
-			<div class="filter about">
-				<img src="images/minirenatinho.jpg" alt="Eu" />
-				<p>Programador que as vezes paga de artista amador</p>
-				<br/><br/>
+			<div class="portfolio-grid">
+				<div class="portfolio-card games">
+					<div class="card-meta">2017 • Multiplayer online</div>
+					<h4><a target="_blank" href="https://arena-jerimum.onrender.com/">Arena Jerimum</a></h4>
+					<a target="_blank" href="https://arena-jerimum.onrender.com/"><img src="images/jaw.png"
+							alt="Arena Jerimum" /></a>
+					<p>Jogo multiplayer online para navegador, com código aberto no GitHub. Uma experiência retrô de
+						todos
+						contra todos.</p>
+				</div>
 			</div>
 		</section>
 
-		<section class="foot-session">
-			<p>Acesse meu <a target="_blank" href="pdf/Currículo.pdf">Currículo</a>, minha página do <a target="_blank" href="https://www.linkedin.com/in/renato-deyvson-177680163/" >LinkedIn</a>, meu perfil no <a target="_blank" href="https://github.com/minirenatinho">Github</a> e meu <a target="_blank" href="https://soundcloud.com/minirenatinho">SoundCloud</a></p>
-			<p>Entre em contato pelo email: <a target="_blank" href="mailto:renatodeyvson@gmail.com">renatodeyvson@gmail.com</a>, ou pelo Instagram: <a target="_blank" href="https://www.instagram.com/minirenatinho/">@minirenatinho</a></p>
+		<section class="portfolio-section" id="dev">
+			<div class="section-header">
+				<span class="section-label">Dev</span>
+			</div>
+			<div class="portfolio-grid">
+				<div class="portfolio-card dev">
+					<div class="card-meta">2016 • Source code</div>
+					<h4><a target="_blank" href="https://github.com/renatodms?tab=repositories">Projetos de Ciência da
+							Computação</a></h4>
+					<a target="_blank" href="https://github.com/renatodms?tab=repositories"><img src="images/git.png"
+							alt="Projetos GitHub" /></a>
+					<p>Repositório com projetos acadêmicos e aplicações práticas desenvolvidas durante a graduação.</p>
+				</div>
+			</div>
 		</section>
 
-		<script src="main.js"></script>
+		<section class="about-section" id="about">
+			<div class="about-panel about">
+				<img src="images/minirenatinho.jpg" alt="Mini Renatinho" />
+				<div class="about-copy">
+					<h3>Sobre</h3>
+					<p>Sou programador desde 2014 (quando iniciei meus estudos em Ciência da Computação no CIn UFPE),
+						mas as expressões artísticas sempre estiveram em meu entorno e despertaram o meu interesse.
+						Atualmente, além do meu trabalho como desenvolvedor, atuo compondo e produzindo músicas autorais
+						(me preparando para colaborações) e desenvolvendo jogos independentes.</p>
+					<p>Me procure para colaborações, gravações e produções musicais, design de jogos e experiências
+						interativas ou desenvolvimento de sites, aplicações e o que mais nossa imaginação permitir que
+						dialoguem criatividade e tecnologia.</p>
+				</div>
+			</div>
+		</section>
+	</main>
 
-	</body>
+	<footer class="foot-session" id="contato">
+		<div class="footer-copy">
+			<p>Visite meu <a target="_blank" href="https://soundcloud.com/minirenatinho">SoundCloud</a>, <a
+					target="_blank" href="https://github.com/minirenatinho">GitHub</a> e <a target="_blank"
+					href="https://www.linkedin.com/in/renato-deyvson-177680163/">LinkedIn</a>.</p>
+			<p>Contato: <a target="_blank" href="mailto:renatodeyvson@gmail.com">renatodeyvson@gmail.com</a> |
+				Instagram: <a target="_blank" href="https://www.instagram.com/minirenatinho/">@minirenatinho</a></p>
+		</div>
+	</footer>
+
+</body>
+
 </html>
