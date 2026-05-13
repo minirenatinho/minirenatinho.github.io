@@ -21,6 +21,10 @@ body {
 	min-height: 100%;
 }
 
+html {
+	scroll-padding-top: 130px;
+}
+
 body {
 	background: radial-gradient(circle at top, rgba(245, 197, 66, 0.14), transparent 22%), linear-gradient(180deg, #120f0a 0%, #090705 100%);
 	color: #f8f1d2;
@@ -147,11 +151,11 @@ h1 {
 .main-content {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 20px 24px 64px;
+	padding: 32px 24px 64px;
 }
 
 section {
-	scroll-margin-top: 110px;
+	scroll-margin-top: 130px;
 }
 
 .intro-section {
@@ -321,7 +325,11 @@ section {
 
 @media screen and (max-width: 680px) {
 	.hero-panel {
-		padding-top: 68px;
+		padding-top: 132px;
+	}
+
+	.main-content {
+		padding-top: 40px;
 	}
 
 	.intro-panel h2 {

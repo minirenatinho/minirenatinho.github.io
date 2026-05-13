@@ -18,5 +18,10 @@ citar parcerias ou clientes, se houver
 
 Criar um “press kit” baixável
 one-sheet em PDF
-fotos de alta qualidade
+Fotos de Imprensa: Imagens em alta resolução.
 bio resumida + contatos
+
+Biografia: Resumo da trajetória, conquistas e estilo musical.
+
+Vídeos: Videoclipes ou apresentações ao vivo.
+
