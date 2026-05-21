@@ -25,3 +25,8 @@ Biografia: Resumo da trajetória, conquistas e estilo musical.
 
 Vídeos: Videoclipes ou apresentações ao vivo.
 
+Adicionar link/botão "Baixar EPK" na página
+PDF estático seguindo padrões da indústria musical (cover, bio curta, fotos em alta, links, contato, press quotes)
+preferir PDF feito à mão em vez de geração automática a partir do HTML (qualidade visual + iframes do SoundCloud não renderizam)
+incluir data de "última atualização" próxima ao botão para tornar visível a defasagem entre página e PDF
+
