@@ -22,7 +22,7 @@ python -m http.server 8000
 
 Single-page site (`index.html`) with a fixed navigation bar linking to in-page sections: Músicas (Music), Jogos (Games), Dev, Sobre (About), and Contato (Contact).
 
-- **`main.css`** — all styling; dark theme with gold (`#f5c542`) accent color throughout
+- **`main.css`** — all styling; "pumpkin night" theme: dark indigo background with CSS-only pixel stars (SVG data URIs), gold (`#f5c542`) as the brand color, and per-section accents (music rose, games orange, dev teal) wired via the `--accent` custom property on each section. Headings use Space Grotesk; pixel labels/chips use Silkscreen; body uses Inter.
 - **`404.html`** — custom not-found page served by GitHub Pages
 - **`robots.txt` / `sitemap.xml`** — SEO; update `sitemap.xml`'s `lastmod` on significant content changes
 - **`images/`** — photos and icons used in the page (large photos are resized/compressed for web before committing)
