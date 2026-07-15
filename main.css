@@ -236,41 +236,6 @@ h1 {
 	color: transparent;
 }
 
-.hero-tagline {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 8px 26px;
-	color: var(--muted);
-	font-size: 1.02rem;
-}
-
-.role {
-	display: inline-flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.role::before {
-	content: "";
-	width: 9px;
-	height: 9px;
-	flex-shrink: 0;
-	background: var(--rc, var(--primary));
-}
-
-.role-music {
-	--rc: var(--c-music);
-}
-
-.role-games {
-	--rc: var(--c-games);
-}
-
-.role-dev {
-	--rc: var(--c-dev);
-}
-
 /* ---------- Seções ---------- */
 
 .main-content {
@@ -660,12 +625,6 @@ section {
 	.hero-mascot {
 		width: 72px;
 		height: 72px;
-	}
-
-	.hero-tagline {
-		flex-direction: column;
-		align-items: center;
-		gap: 6px;
 	}
 
 	.main-content {
